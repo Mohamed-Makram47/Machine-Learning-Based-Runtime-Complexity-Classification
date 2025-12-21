@@ -36,4 +36,9 @@ code_b = '''def max_value(arr):
 normalized_code3 = normalize_indentation(code_a)
 normalized_code4 = normalize_indentation(code_b)
 
-print(normalized_code3 == normalized_code4)  # Should print True
+print(normalized_code3)
+print(normalized_code4)
+
+tree = ast.parse(code_a)
+# i want to see tree structure
+print(ast.dump(tree, indent=4))
