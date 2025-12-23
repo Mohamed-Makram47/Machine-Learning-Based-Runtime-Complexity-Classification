@@ -15,7 +15,7 @@ The project compares **different code representations** and **model architecture
 
 ## 📊 Dataset
 
-- **40,000+ Python code samples** with ground-truth complexity labels
+- **4000+ Python code samples** with ground-truth complexity labels
 - Randomized variable names, constants, and formatting
 - Same dataset used for all model comparisons
 
